@@ -1,0 +1,23 @@
+# Bỏ qua các file nháp và ý tưởng
+idea/
+
+# Bỏ qua dữ liệu thô (Rất nặng và nhạy cảm)
+data/
+src/data/
+
+# Bỏ qua kết quả điều tra (File CSV, JSON, TXT xuất ra từ Notebook)
+results/
+src/results/
+
+# Bỏ qua các file cache tự động sinh ra của Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Bỏ qua các file lưu tạm tự động của Jupyter Notebook
+.ipynb_checkpoints/
+
+# Bỏ qua môi trường ảo (Virtual Environment - Nếu có)
+venv/
+env/
+.env
